@@ -11,7 +11,6 @@ module.exports = {
         "brand-yellow": "#FBBB14",
         textgray: "#707070",
         "brand-bg-dark": "#191923",
-
         "theme-darkgray": "#1E1E28",
         "theme-middlekgray": "#20202A",
         "theme-lightgray": "#2C2C38",
