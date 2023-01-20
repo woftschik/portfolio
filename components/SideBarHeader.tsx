@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import avatar from "../public/images/avatar.jpg";
-import Lamp from "./lamp";
+import Lamp from "./Lamp";
 
 function SideBarHeader() {
   return (
-    <div className="w-72 h-80 bg-gradient-to-br from-[rgba(35,35,46)] to-[rgba(37,37,50)] px-8 py-10 flex flex-col text-center text-sm justify-center">
+    <div className="w-72 h-80 bg-gradient-to-br from-[rgba(35,35,46)] to-[rgba(37,37,50)] px-8 py-10 flex flex-col text-center justify-center">
       <div className="w-full flex justify-center">
         <div className="w-44 h-44 mb-5">
           <Image alt="avatar" src={avatar} className="rounded-full" />

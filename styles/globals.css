@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "courierprime-regular-webfont";
+  src: url("../public/fonts/courierprime-regular-webfont.woff2");
+}
+
+@font-face {
+  font-family: "lato-regular-webfont";
+  src: url("../public/fonts/lato-light-webfont.woff2");
+}
+
+@font-face {
+  font-family: "lato-bold-webfont";
+  src: url("../public/fonts/lato-bold-webfont.woff2");
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

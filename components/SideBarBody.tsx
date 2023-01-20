@@ -1,6 +1,7 @@
 import React from "react";
 import SectionDivider from "./SectionDivider";
 import SideBarInfoSection from "./SideBarInfoSection";
+import LanguageSection from "./LanguageSection";
 
 function SideBarBody() {
   return (
@@ -10,7 +11,9 @@ function SideBarBody() {
         <SideBarInfoSection name={"City:"} value={"Hohenau"} />
       </div>
       <SectionDivider />
-      <div className="py-5"></div>
+      <div className="py-8">
+        <LanguageSection />
+      </div>
     </div>
   );
 }

@@ -7,6 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        courier: ["courierprime-regular-webfont"],
+        lato: ["lato-regular-webfont"],
+        "lato-bold": ["lato-bold-webfont"],
+      },
       colors: {
         "brand-yellow": "#FBBB14",
         textgray: "#707070",
